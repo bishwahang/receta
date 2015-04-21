@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'bower-rails'
+gem "angular-rails-templates"
+
 gem "foreman"
 group :production, :staging do
   gem "rails_12factor"
