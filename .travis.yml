@@ -1,1 +1,3 @@
 language: ruby
+before_script:
+  - psql -c "CREATE USER hang WITH PASSWORD 'hang';" -U postgres
